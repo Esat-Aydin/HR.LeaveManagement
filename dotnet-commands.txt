@@ -1,2 +1,9 @@
+#git
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <your-remote-repository-url>
+git push -u origin master
+
 #dotnet library
 dotnet new classlib -o "namelibrary"
