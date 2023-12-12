@@ -7,3 +7,8 @@ git push -u origin master
 
 #dotnet library
 dotnet new classlib -o "namelibrary"
+
+#dotnet reference projects
+first go to ProjectA path and then run the following code:
+dotnet add reference <path project b>
+
