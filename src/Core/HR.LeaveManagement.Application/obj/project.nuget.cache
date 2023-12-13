@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "JVA0n1qBsxSRE1LXlIwTy2khUplyV1XYOkUpmhcNkMWAXCNERqUd0fmdb8OvKjhQcVlb5bUj7sctaXgxFjRE4Q==",
+  "dgSpecHash": "vrTtxQcfcXOajcZTzBAwU51Uurbj5cnEJnrzp9x7zCNprjAwCcj3Bxt/Owt2sYFrKGiI91/BjhPbati1taMRlw==",
   "success": true,
   "projectFilePath": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/esataydin/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/esataydin/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/esataydin/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/Users/esataydin/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/esataydin/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/Users/esataydin/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/esataydin/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/esataydin/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/esataydin/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/esataydin/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
