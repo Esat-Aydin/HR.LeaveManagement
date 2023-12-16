@@ -1,0 +1,18 @@
+#git
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <your-remote-repository-url>
+git push -u origin master
+
+#dotnet library
+dotnet new classlib -o "namelibrary"
+
+#dotnet reference projects
+first go to ProjectA path and then run the following code:
+dotnet add reference <path project b>
+
+#dotnet add project to solution
+cd to the path of the sln first then enter the following command:
+dotnet sln HR.LeaveManagement.sln add ./Core/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj
+
