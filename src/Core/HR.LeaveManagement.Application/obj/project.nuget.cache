@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ynbCMIsexj+rNbL1hc/QVQNyWcYIpdOlNzVk0IC/vUHM+mg5zdaU1CiIK1TPNSqQeSfg7P2qmGdwJnnJSKVXFw==",
+  "dgSpecHash": "NheJC5z71gSSnG4bUUKrM2As223fU8xaLZC4deFqK+msrpw7hzZ6euZe1xMJPmvNMzS4qt004zefEz8CVsx7fg==",
   "success": true,
   "projectFilePath": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj",
   "expectedPackageFiles": [
@@ -8,11 +8,10 @@
     "/Users/esataydin/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/esataydin/.nuget/packages/fluentvalidation/11.8.1/fluentvalidation.11.8.1.nupkg.sha512",
     "/Users/esataydin/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.8.1/fluentvalidation.dependencyinjectionextensions.11.8.1.nupkg.sha512",
-    "/Users/esataydin/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
-    "/Users/esataydin/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
-    "/Users/esataydin/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/Users/esataydin/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/esataydin/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/esataydin/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
-    "/Users/esataydin/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/esataydin/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/Users/esataydin/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/esataydin/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/Users/esataydin/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
