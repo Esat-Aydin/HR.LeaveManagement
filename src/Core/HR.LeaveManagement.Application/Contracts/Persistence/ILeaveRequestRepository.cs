@@ -6,6 +6,6 @@ namespace HR.LeaveManagement.Application.Contracts.Persistence
     {
         Task<LeaveRequest> GetLeaveRequestWithDetails(int id);
         Task<List<LeaveRequest>> GetLeaveRequestsWithDetails();
-        Task<List<LeaveRequest>> GetLeaveRequestsWithDetails(string userId);
+        Task<List<LeaveRequest>> GetLeaveRequestsWithDetails(string employeeId);
     }
 }
