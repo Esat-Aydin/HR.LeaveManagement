@@ -3810,6 +3810,7 @@
       "HR.LeaveManagement.Infrastructure >= 1.0.0",
       "HR.LeaveManagement.Persistence >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.7",
+      "Microsoft.EntityFrameworkCore >= 7.0.14",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.14",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -3865,6 +3866,10 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[7.0.7, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.14, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
