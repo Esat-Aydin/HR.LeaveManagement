@@ -14,6 +14,7 @@ namespace HR.LeaveManagement.Infrastructure
 {
     public static class InfrastructureServiceRegistration
     {
+        // IConfiguration is used to read the appsettings.json file. It is basically a abstraction of the appsettings.json file
         public static IServiceCollection AddInfrastructureServices(IServiceCollection services, IConfiguration configuration)
         {
             services.Configure<EmailSettings>(configuration.GetSection("EmailSettings"));

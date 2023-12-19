@@ -16,3 +16,8 @@ dotnet add reference <path project b>
 cd to the path of the sln first then enter the following command:
 dotnet sln HR.LeaveManagement.sln add ./Core/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj
 
+#dotnet add webapi
+dotnet new webapi -n <YourProjectName>
+
+#dotnet migrations
+dotnet ef migrations add InitialCreate

@@ -24,4 +24,9 @@ public class DeleteLeaveRequestCommandHandler : IRequestHandler<DeleteLeaveReque
         await _leaveRequestRepository.DeleteAsync(leaveRequest);
         return Unit.Value;
     }
+
+    Task IRequestHandler<DeleteLeaveRequestCommand>.Handle(DeleteLeaveRequestCommand request, CancellationToken cancellationToken)
+    {
+        throw new NotImplementedException();
+    }
 }

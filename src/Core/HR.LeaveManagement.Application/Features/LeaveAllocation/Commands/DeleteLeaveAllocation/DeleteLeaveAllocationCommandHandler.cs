@@ -27,5 +27,10 @@ namespace HR.LeaveManagement.Application.Features.LeaveAllocations.Handlers.Comm
             await _leaveAllocationRepository.DeleteAsync(leaveAllocation);
             return Unit.Value;
         }
+
+        Task IRequestHandler<DeleteLeaveAllocationCommand>.Handle(DeleteLeaveAllocationCommand request, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
