@@ -7,25 +7,18 @@
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/API/HR.LeaveManagement.Api/Program.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="src/Infrastructure/HR.LeaveManagement.Infrastructure/InfrastructureServiceRegistration.cs" />
-      <File FileName="src/API/HR.LeaveManagement.Api/Program.cs" Line="23" Column="37" />
+      <File FileName="src/API/HR.LeaveManagement.Api/Program.cs" Line="29" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="HR.LeaveManagement" expanded="True">
-            <Node name="src" expanded="True">
-              <Node name="API" expanded="True">
-                <Node name="HR.LeaveManagement.Api" expanded="True" selected="True" />
-              </Node>
-              <Node name="Infrastructure" expanded="True">
-                <Node name="HR.LeaveManagement.Infrastructure" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="HR.LeaveManagement" expanded="True" />
         </State>
       </Pad>
     </Pads>
