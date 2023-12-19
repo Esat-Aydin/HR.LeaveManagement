@@ -18,8 +18,6 @@ namespace HR.LeaveManagement.Persistence.DatabaseContext
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(HrDatabaseContext).Assembly);
-
             // Example code below. Normally I would use the `HasData` method to seed data to the database.
             // Now the LeaveType data is beein seeded through the `LeaveTypeConfiguration` class.
 
@@ -31,7 +29,8 @@ namespace HR.LeaveManagement.Persistence.DatabaseContext
             //         Name = "Vacation"
             //     }
             // );
-
+            
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(HrDatabaseContext).Assembly);
             base.OnModelCreating(modelBuilder);
         }
 

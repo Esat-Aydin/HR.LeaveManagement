@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{6FF7B1E2-9CAA-4C7A-99EB-03E33C08557E}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{6FF7B1E2-9CAA-4C7A-99EB-03E33C08557E}" ItemName="HR.LeaveManagement.Api" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.src.API.HR.LeaveManagement.Api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Infrastructure/HR.LeaveManagement.Infrastructure/InfrastructureServiceRegistration.cs">
+    <Files>
+      <File FileName="src/Infrastructure/HR.LeaveManagement.Infrastructure/InfrastructureServiceRegistration.cs" Line="26" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HR.LeaveManagement" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="API" expanded="True">
+                <Node name="HR.LeaveManagement.Api" expanded="True" />
+              </Node>
+              <Node name="Infrastructure" expanded="True">
+                <Node name="HR.LeaveManagement.Infrastructure" expanded="True">
+                  <Node name="InfrastructureServiceRegistration.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

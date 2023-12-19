@@ -4,27 +4,28 @@ using System.Linq;
 using System.Threading.Tasks;
 using HR.LeaveManagement.Domain;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace HR.LeaveManagement.Persistence.Configurations
 {
     public class LeaveTypeConfiguration : IEntityTypeConfiguration<LeaveType>
     {
-        public void Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<LeaveType> builder)
+        public void Configure(EntityTypeBuilder<LeaveType> builder)
         {
             builder.HasData(
-            new LeaveType
-            {
-                Id = 1,
-                DefaultDays = 15,
-                Name = "Vacation"
-            }
+                new LeaveType
+                {
+                    Id = 1,
+                    Name = "Vacation",
+                    DefaultDays = 10,
+                    DateCreated = DateTime.Now,
+                    DateModified = DateTime.Now
+                }
             );
 
-            // Here I can place code to restrict the database table. I can give it validation rules, etc.
-            // Example:
-            // builder.Property(q => q.Name)
-            //     .IsRequired()
-            //     .HasMaxLength(50);
+            builder.Property(q => q.Name)
+                .IsRequired()
+                .HasMaxLength(100);
         }
     }
 }
