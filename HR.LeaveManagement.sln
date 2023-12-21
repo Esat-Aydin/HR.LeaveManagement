@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Applicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Persistence.IntegrationTests", "test\HR.LeaveManagement.Persistence.IntegrationTests\HR.LeaveManagement.Persistence.IntegrationTests.csproj", "{A2E1426F-8392-4245-871F-AC103423A5E3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{3DEE64D8-6505-4A17-9DE5-E79E31B6E54C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.BlazorUI", "src\UI\HR.LeaveManagement.BlazorUI\HR.LeaveManagement.BlazorUI.csproj", "{6F9AE6D1-244E-45BF-874F-D81459890D66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,10 @@ Global
 		{A2E1426F-8392-4245-871F-AC103423A5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2E1426F-8392-4245-871F-AC103423A5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2E1426F-8392-4245-871F-AC103423A5E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9AE6D1-244E-45BF-874F-D81459890D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9AE6D1-244E-45BF-874F-D81459890D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9AE6D1-244E-45BF-874F-D81459890D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9AE6D1-244E-45BF-874F-D81459890D66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +84,8 @@ Global
 		{6FF7B1E2-9CAA-4C7A-99EB-03E33C08557E} = {DD10BDCF-05D8-4368-9ABC-DACE8A6D3304}
 		{7FB91313-0F59-4A77-9394-51467B7ECBF4} = {D170C6D0-ED79-475A-A858-337D08455F07}
 		{A2E1426F-8392-4245-871F-AC103423A5E3} = {D170C6D0-ED79-475A-A858-337D08455F07}
+		{3DEE64D8-6505-4A17-9DE5-E79E31B6E54C} = {1C3D95BA-5A41-416B-A543-85FC0AE39264}
+		{6F9AE6D1-244E-45BF-874F-D81459890D66} = {3DEE64D8-6505-4A17-9DE5-E79E31B6E54C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {128F574E-CD76-4925-AA83-5DCCCB06A5EA}

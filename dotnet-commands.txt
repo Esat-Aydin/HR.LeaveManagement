@@ -31,3 +31,6 @@ Encrypt=False is bein used because I do not have a valid SSL encryption
 
 #dotnet xunit test project
 dotnet new xunit -n YourTestProjectName
+
+#dotnet new blazor webassembly
+dotnet new blazorwasm -n YourProjectName
