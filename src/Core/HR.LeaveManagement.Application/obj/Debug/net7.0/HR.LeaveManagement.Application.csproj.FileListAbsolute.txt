@@ -1,0 +1,17 @@
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net7.0/HR.LeaveManagement.Application.csproj.AssemblyReference.cache
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net7.0/HR.LeaveManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net7.0/HR.LeaveManagement.Application.AssemblyInfoInputs.cache
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net7.0/HR.LeaveManagement.Application.AssemblyInfo.cs
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net7.0/HR.LeaveManagement.Application.csproj.CoreCompileInputs.cache
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net7.0/HR.LeaveManagement.Application.deps.json
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net7.0/HR.LeaveManagement.Application.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net7.0/HR.LeaveManagement.Application.pdb
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net7.0/HR.LeaveManagement.Domain.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net7.0/HR.LeaveManagement.Domain.pdb
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net7.0/HR.LeaveManagement.Application.csproj.CopyComplete
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net7.0/HR.LeaveManagement.Application.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net7.0/refint/HR.LeaveManagement.Application.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net7.0/HR.LeaveManagement.Application.pdb
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net7.0/ref/HR.LeaveManagement.Application.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net7.0/HR.LeaveManagement.Application.runtimeconfig.json
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net7.0/HR.LeaveManagement.Application.genruntimeconfig.cache
