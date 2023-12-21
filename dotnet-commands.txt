@@ -22,3 +22,9 @@ dotnet new webapi -n <YourProjectName>
 #dotnet migrations
 dotnet ef migrations add InitialMigration -s API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj -p Infrastructure/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj
                                                 #path of mine project                                       #path of dbcontext project
+
+#dotnet database update command
+dotnet ef database update -s API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj -p Infrastructure/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj
+
+#connection string settings
+Encrypt=False is bein used because I do not have a valid SSL encryption
