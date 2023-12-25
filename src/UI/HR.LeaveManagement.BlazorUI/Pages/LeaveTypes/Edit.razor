@@ -1,4 +1,4 @@
-﻿@page "/leavetypes/edit/{id:int}"
+﻿@* @page "/leavetypes/edit/{id:int}"
 @attribute [Authorize(Roles = "Administrator")]
 
 <h3>Edit Leave Type</h3>
@@ -11,4 +11,4 @@
 }
 
 <FormComponent ButtonText="Update" LeaveType="leaveType" OnValidSubmit="@EditLeaveType" />
-
+ *@

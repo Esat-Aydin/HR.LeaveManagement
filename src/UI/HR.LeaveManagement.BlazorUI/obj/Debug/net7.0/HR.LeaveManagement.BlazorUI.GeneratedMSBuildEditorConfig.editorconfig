@@ -52,6 +52,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhdmVUeXBlcy9JbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Pages/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9nb3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1JlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

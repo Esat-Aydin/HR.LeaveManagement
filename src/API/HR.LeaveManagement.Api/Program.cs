@@ -1,5 +1,6 @@
 using HR.LeaveManagement.Api.Middleware;
 using HR.LeaveManagement.Application;
+using HR.LeaveManagement.Identity;
 using HR.LeaveManagement.Infrastructure;
 using HR.LeaveManagement.Persistence;
 
@@ -18,6 +19,7 @@ var builder = WebApplication.CreateBuilder(args);
 ApplicationServiceRegistration.AddApplicationServices(builder.Services);
 InfrastructureServiceRegistration.AddInfrastructureServices(builder.Services, builder.Configuration);
 PersistenceServiceRegistration.AddPersistenceServices(builder.Services, builder.Configuration);
+IdentityServiceRegistration.AddIdentityServices(builder.Services, builder.Configuration);
 
 builder.Services.AddControllers();
 
@@ -44,6 +46,9 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseCors("all");
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.UseAuthorization();
 

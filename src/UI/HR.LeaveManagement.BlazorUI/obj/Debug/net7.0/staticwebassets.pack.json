@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/HR.LeaveManagement.BlazorUI.styles.css"
     },
     {
+      "Id": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/wwwroot/appsettings.json",
+      "PackagePath": "staticwebassets/appsettings.json"
+    },
+    {
       "Id": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },

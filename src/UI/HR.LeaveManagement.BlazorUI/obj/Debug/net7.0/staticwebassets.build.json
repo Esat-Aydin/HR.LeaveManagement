@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+4daPPmu7wySSOm17mzHmFkn+s9jPnnntP3GwNR1KtI=",
+  "Hash": "CCojiZS0xbKWC9twR/5V8ChxK3T4RcpeZv5zhQ3R1pM=",
   "Source": "HR.LeaveManagement.BlazorUI",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,57 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.14/staticwebassets/AuthenticationService.js",
+      "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.14/staticwebassets/",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "RelativePath": "AuthenticationService.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.14/staticwebassets/AuthenticationService.js"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/AutoMapper.dll",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/automapper/12.0.1/lib/netstandard2.1/AutoMapper.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+    },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/blazor.boot.json",
       "SourceId": "HR.LeaveManagement.BlazorUI",
@@ -49,6 +100,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.webassembly/7.0.7/build/net7.0/blazor.webassembly.js"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Blazored.LocalStorage.dll",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/blazored.localstorage/4.4.0/lib/net7.0/Blazored.LocalStorage.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/dotnet.7.0.7.5jf4r332wd.js",
@@ -218,7 +286,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.authorization/7.0.7/lib/net7.0/Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.authorization/7.0.14/lib/net7.0/Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.authorization/7.0.14/lib/net7.0/Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
@@ -235,7 +320,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components/7.0.7/lib/net7.0/Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components/7.0.14/lib/net7.0/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
@@ -252,7 +337,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.forms/7.0.7/lib/net7.0/Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.forms/7.0.14/lib/net7.0/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
@@ -269,7 +354,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.web/7.0.7/lib/net7.0/Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.web/7.0.14/lib/net7.0/Microsoft.AspNetCore.Components.Web.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.14/lib/net7.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -303,7 +405,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.metadata/7.0.7/lib/net7.0/Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.metadata/7.0.14/lib/net7.0/Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.CSharp.dll",
@@ -493,6 +595,23 @@
       "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.extensions.filesystemglobbing/7.0.0/lib/net7.0/Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.extensions.http/7.0.0/lib/net7.0/Microsoft.Extensions.Http.dll"
+    },
+    {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll",
       "SourceId": "HR.LeaveManagement.BlazorUI",
       "SourceType": "Computed",
@@ -561,6 +680,74 @@
       "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.extensions.primitives/7.0.0/lib/net7.0/Microsoft.Extensions.Primitives.dll"
     },
     {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.IdentityModel.Abstractions.dll",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.identitymodel.abstractions/7.0.3/lib/net6.0/Microsoft.IdentityModel.Abstractions.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.IdentityModel.JsonWebTokens.dll",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.JsonWebTokens.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.0.3/lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.IdentityModel.Logging.dll",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Logging.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.identitymodel.logging/7.0.3/lib/net6.0/Microsoft.IdentityModel.Logging.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.IdentityModel.Tokens.dll",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Tokens.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.identitymodel.tokens/7.0.3/lib/net6.0/Microsoft.IdentityModel.Tokens.dll"
+    },
+    {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll",
       "SourceId": "HR.LeaveManagement.BlazorUI",
       "SourceType": "Computed",
@@ -575,7 +762,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.jsinterop/7.0.7/lib/net7.0/Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.jsinterop/7.0.14/lib/net7.0/Microsoft.JSInterop.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll",
@@ -1341,6 +1528,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/7.0.7/runtimes/browser-wasm/lib/net7.0/System.Globalization.Extensions.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.IdentityModel.Tokens.Jwt.dll",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.IdentityModel.Tokens.Jwt.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/system.identitymodel.tokens.jwt/7.0.3/lib/net6.0/System.IdentityModel.Tokens.Jwt.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.IO.Compression.Brotli.dll",
@@ -3502,6 +3706,23 @@
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.Reflection.TypeExtensions.dll"
     },
     {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/0DYCWX+S.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/0wSynrnE.gz",
       "SourceId": "HR.LeaveManagement.BlazorUI",
       "SourceType": "Computed",
@@ -3670,23 +3891,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Win32.Registry.dll"
-    },
-    {
-      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/3nYhXHH0.gz",
-      "SourceId": "HR.LeaveManagement.BlazorUI",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/49TQ849+.gz",
@@ -3876,6 +4080,23 @@
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.Serialization.Primitives.dll"
     },
     {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/5uisgTHb.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll"
+    },
+    {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/5zg2xehA.gz",
       "SourceId": "HR.LeaveManagement.BlazorUI",
       "SourceType": "Computed",
@@ -3993,6 +4214,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.Xml.XmlDocument.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/6URHj9FR.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/6UW59eL5.gz",
@@ -4284,6 +4522,23 @@
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/B3DbDhiI.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/AutoMapper.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/AutoMapper.dll"
+    },
+    {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/b3gphqnT.gz",
       "SourceId": "HR.LeaveManagement.BlazorUI",
       "SourceType": "Computed",
@@ -4437,6 +4692,40 @@
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll"
     },
     {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/bXidxQmJ.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/c34Wpc9w.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Blazored.LocalStorage.dll"
+    },
+    {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/C3Otg20y.gz",
       "SourceId": "HR.LeaveManagement.BlazorUI",
       "SourceType": "Computed",
@@ -4537,6 +4826,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.Net.NetworkInformation.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/EarI+QoT.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.JsonWebTokens.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.IdentityModel.JsonWebTokens.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.IdentityModel.JsonWebTokens.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/eKiVnQyA.gz",
@@ -4913,6 +5219,40 @@
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/hkIeCWrw.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.IdentityModel.Tokens.Jwt.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.IdentityModel.Tokens.Jwt.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.IdentityModel.Tokens.Jwt.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/hKP0rZah.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll"
+    },
+    {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/hS8HPuiU.gz",
       "SourceId": "HR.LeaveManagement.BlazorUI",
       "SourceType": "Computed",
@@ -4962,6 +5302,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.Net.Primitives.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/iFP0t+Ld.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Tokens.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.IdentityModel.Tokens.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.IdentityModel.Tokens.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/iFXM+Cyc.gz",
@@ -5015,23 +5372,6 @@
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.Net.Sockets.dll"
     },
     {
-      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/Iu+UjG01.gz",
-      "SourceId": "HR.LeaveManagement.BlazorUI",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/IurcaWrA.gz",
       "SourceId": "HR.LeaveManagement.BlazorUI",
       "SourceType": "Computed",
@@ -5081,6 +5421,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.Security.Cryptography.X509Certificates.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/JCUKl0RG.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.IdentityModel.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.IdentityModel.Abstractions.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/jgqI+8an.gz",
@@ -5151,21 +5508,38 @@
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.Diagnostics.TraceSource.dll"
     },
     {
-      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/kGR4EvkR.gz",
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/K99N3slc.gz",
       "SourceId": "HR.LeaveManagement.BlazorUI",
       "SourceType": "Computed",
       "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/kaGSX0EW.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/kicuHikq.gz",
@@ -5200,23 +5574,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/dotnet.7.0.7.5jf4r332wd.js"
-    },
-    {
-      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/kuv+U7aS.gz",
-      "SourceId": "HR.LeaveManagement.BlazorUI",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/KVSI7GEX.gz",
@@ -5268,6 +5625,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/lj5peTnQ.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/lLrQ2ZPa.gz",
@@ -5831,6 +6205,23 @@
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/blazor.webassembly.js"
     },
     {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/PzW5KsxX.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/q1FsLuHg.gz",
       "SourceId": "HR.LeaveManagement.BlazorUI",
       "SourceType": "Computed",
@@ -6103,23 +6494,6 @@
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.IO.FileSystem.dll"
     },
     {
-      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/T+AHgD3k.gz",
-      "SourceId": "HR.LeaveManagement.BlazorUI",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/t+ONwOsk.gz",
       "SourceId": "HR.LeaveManagement.BlazorUI",
       "SourceType": "Computed",
@@ -6290,6 +6664,23 @@
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.Security.Cryptography.Algorithms.dll"
     },
     {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/UtxIdOJA.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
+    },
+    {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/UvKgfamr.gz",
       "SourceId": "HR.LeaveManagement.BlazorUI",
       "SourceType": "Computed",
@@ -6305,6 +6696,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.InteropServices.JavaScript.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/UxKCmRo3.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.IdentityModel.Logging.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.IdentityModel.Logging.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.IdentityModel.Logging.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/V0LJqZs4.gz",
@@ -6851,23 +7259,6 @@
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.Data.dll"
     },
     {
-      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/zxozPllR.gz",
-      "SourceId": "HR.LeaveManagement.BlazorUI",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll"
-    },
-    {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/scopedcss/bundle/HR.LeaveManagement.BlazorUI.styles.css",
       "SourceId": "HR.LeaveManagement.BlazorUI",
       "SourceType": "Computed",
@@ -6900,6 +7291,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/scopedcss/projectbundle/HR.LeaveManagement.BlazorUI.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/wwwroot/appsettings.json",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "appsettings.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "settings",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/appsettings.json"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/wwwroot/css/app.css",

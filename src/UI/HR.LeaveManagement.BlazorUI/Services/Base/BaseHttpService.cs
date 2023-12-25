@@ -1,14 +1,17 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using Blazored.LocalStorage;
 
 namespace HR.LeaveManagement.BlazorUI.Services.Base
 {
     public class BaseHttpService
     {
         protected IClient _client;
-        protected readonly ILocalStorageService _localStorage;
+        private ILocalStorageService _localStorage;
+
         public BaseHttpService(IClient client, ILocalStorageService localStorage)
         {
             _client = client;
