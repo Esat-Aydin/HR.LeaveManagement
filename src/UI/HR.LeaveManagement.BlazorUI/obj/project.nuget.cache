@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BfBDgUGnYDrYpj/l6Ou0pi8Kq5nqK5MjSPPqMp1nmkTeSTu98yr1/6yKLYrbCJCp9B7qcUyRDY3G0Nsa/TK9sg==",
+  "dgSpecHash": "qRFVSCNLZMbg9pQZW08dMzv/4ymLKaAMPEnf/YOvdspdXsfUMFIsEny0Jd+vqel8DdDdJe8qYMBqlL0WvjCgEw==",
   "success": true,
   "projectFilePath": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/HR.LeaveManagement.BlazorUI.csproj",
   "expectedPackageFiles": [
     "/Users/esataydin/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/esataydin/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/esataydin/.nuget/packages/blazored.localstorage/4.4.0/blazored.localstorage.4.4.0.nupkg.sha512",
+    "/Users/esataydin/.nuget/packages/blazored.toast/4.1.0/blazored.toast.4.1.0.nupkg.sha512",
     "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.authorization/7.0.14/microsoft.aspnetcore.authorization.7.0.14.nupkg.sha512",
     "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components/7.0.14/microsoft.aspnetcore.components.7.0.14.nupkg.sha512",
     "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.14/microsoft.aspnetcore.components.analyzers.7.0.14.nupkg.sha512",

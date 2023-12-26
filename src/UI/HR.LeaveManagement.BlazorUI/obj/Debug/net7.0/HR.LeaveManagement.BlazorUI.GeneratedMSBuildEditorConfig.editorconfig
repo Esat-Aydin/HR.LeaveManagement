@@ -32,6 +32,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Pages/LeaveRequests/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhdmVSZXF1ZXN0cy9DcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Pages/LeaveRequests/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhdmVSZXF1ZXN0cy9EZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Pages/LeaveRequests/EmployeeIndex.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhdmVSZXF1ZXN0cy9FbXBsb3llZUluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Pages/LeaveRequests/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhdmVSZXF1ZXN0cy9JbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Pages/LeaveTypes/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhdmVUeXBlcy9DcmVhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

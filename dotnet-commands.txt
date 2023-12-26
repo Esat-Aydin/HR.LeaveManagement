@@ -20,13 +20,15 @@ dotnet sln HR.LeaveManagement.sln add ./Core/HR.LeaveManagement.Application/HR.L
 dotnet new webapi -n <YourProjectName>
 
 #dotnet migrations
-dotnet ef migrations add InitialMigration -s API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj -p Infrastructure/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj
+dotnet ef migrations add InitialMigration --context HrLeaveManagementIdentityDbConext -s src/API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj -p src/Infrastructure/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj
                                                 #path of mine project                                       #path of dbcontext project
 
 #dotnet database update command
 dotnet ef database update -s API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj
  -p Infrastructure/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj
  -context <DbContextName>
+
+dotnet ef database update --context HrDatabaseContext -s src/API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj -p src/Infrastructure/HR.LeaveManagement.Identity/HR.LeaveManagement.Identity.csproj
 
 #connection string settings
 Encrypt=False is bein used because I do not have a valid SSL encryption
@@ -36,3 +38,6 @@ dotnet new xunit -n YourTestProjectName
 
 #dotnet new blazor webassembly
 dotnet new blazorwasm -n YourProjectName
+
+#docker run sql server 2022
+docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Esat2001' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
