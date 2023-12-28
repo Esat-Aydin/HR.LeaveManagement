@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CCojiZS0xbKWC9twR/5V8ChxK3T4RcpeZv5zhQ3R1pM=",
+  "Hash": "cvftjhTeNxcyY3IPSYo9AIlFVLfF1jAg63jKcLUgbjU=",
   "Source": "HR.LeaveManagement.BlazorUI",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/esataydin/.nuget/packages/blazored.toast/4.1.0/staticwebassets/Blazored.Toast.bundle.scp.css",
+      "SourceId": "Blazored.Toast",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/esataydin/.nuget/packages/blazored.toast/4.1.0/staticwebassets/",
+      "BasePath": "_content/Blazored.Toast",
+      "RelativePath": "Blazored.Toast.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/blazored.toast/4.1.0/staticwebassets/Blazored.Toast.bundle.scp.css"
+    },
     {
       "Identity": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.14/staticwebassets/AuthenticationService.js",
       "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/esataydin/.nuget/packages/blazored.localstorage/4.4.0/lib/net7.0/Blazored.LocalStorage.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Blazored.Toast.dll",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.Toast.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/blazored.toast/4.1.0/lib/net7.0/Blazored.Toast.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/dotnet.7.0.7.5jf4r332wd.js",
@@ -4911,6 +4945,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/System.ServiceModel.Web.dll"
+    },
+    {
+      "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/FkUpvXC1.gz",
+      "SourceId": "HR.LeaveManagement.BlazorUI",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.Toast.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Blazored.Toast.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Blazored.Toast.dll"
     },
     {
       "Identity": "/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/FLbH4zq6.gz",

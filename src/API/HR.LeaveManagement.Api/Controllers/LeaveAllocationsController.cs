@@ -44,7 +44,8 @@ public class LeaveAllocationsController : ControllerBase
     public async Task<ActionResult> Post(CreateLeaveAllocationCommand leaveAllocation)
     {
         var response = await _mediator.Send(leaveAllocation);
-        return CreatedAtAction(nameof(Get), new { id = response });
+        var created = CreatedAtAction(nameof(Get), new { id = response });
+        return created;
     }
 
     // PUT api/<LeaveAllocationsController>/5

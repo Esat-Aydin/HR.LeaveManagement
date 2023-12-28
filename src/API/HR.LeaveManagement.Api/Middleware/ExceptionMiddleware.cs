@@ -7,6 +7,7 @@ using HR.LeaveManagement.Api.Models;
 using HR.LeaveManagement.Application.Exceptions;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace HR.LeaveManagement.Api.Middleware
 {
@@ -14,9 +15,11 @@ namespace HR.LeaveManagement.Api.Middleware
     {
         // Next action along the pipeline
         private readonly RequestDelegate _next;
-        public ExceptionMiddleware(RequestDelegate next)
+        private readonly ILogger<ExceptionMiddleware> _logger;
+        public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware> logger)
         {
             _next = next;
+            _logger = logger;
         }
 
         public async Task InvokeAsync(HttpContext httpContext)
@@ -35,8 +38,8 @@ namespace HR.LeaveManagement.Api.Middleware
         private async Task HandleExceptionAsync(HttpContext httpContext, Exception ex)
         {
             HttpStatusCode statusCode = HttpStatusCode.InternalServerError;
-            ProblemDetails problem;
-
+            CustomProblemDetails problem = new();
+            
             switch (ex)
             {
                 case BadRequestException badRequestException:
@@ -50,14 +53,14 @@ namespace HR.LeaveManagement.Api.Middleware
                         Errors = badRequestException.ValidationErrors
                     };
                     break;
-                case NotFoundException notFoundException:
+                case NotFoundException NotFound:
                     statusCode = HttpStatusCode.NotFound;
                     problem = new CustomProblemDetails
                     {
-                        Title = notFoundException.Message,
+                        Title = NotFound.Message,
                         Status = (int)statusCode,
-                        Detail = notFoundException.InnerException?.Message,
                         Type = nameof(NotFoundException),
+                        Detail = NotFound.InnerException?.Message,
                     };
                     break;
                 default:
@@ -65,14 +68,17 @@ namespace HR.LeaveManagement.Api.Middleware
                     {
                         Title = ex.Message,
                         Status = (int)statusCode,
-                        Detail = ex.StackTrace,
                         Type = nameof(HttpStatusCode.InternalServerError),
+                        Detail = ex.StackTrace,
                     };
                     break;
             }
 
             httpContext.Response.StatusCode = (int)statusCode;
+            var logMessage = JsonConvert.SerializeObject(problem);
+            _logger.LogError(logMessage);
             await httpContext.Response.WriteAsJsonAsync(problem);
+
         }
     }
 

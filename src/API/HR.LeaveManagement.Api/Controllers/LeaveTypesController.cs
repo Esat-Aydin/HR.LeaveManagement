@@ -29,22 +29,24 @@ namespace HR.LeaveManagement.Api.Controllers
             return leaveTypes;
         }
 
-        [HttpGet("{id}")]
-        public async Task<LeaveTypeDetailsDto> GetLeaveTypeDetails(int id)
+        [HttpGet("{id}", Name = "GetLeaveTypeDetailsRoute")]
+        public async Task<ActionResult<LeaveTypeDetailsDto>> GetLeaveTypeDetails(int id)
         {
             var leaveType = await _mediator.Send(new GetLeaveTypeDetailsQuery(id));
-            return leaveType;
+            return Ok(leaveType);
         }
+
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-         
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult> CreateLeaveType(CreateLeaveTypeCommand leaveTypeDto)
         {
-            var response = await _mediator.Send(leaveTypeDto);
-            return CreatedAtAction(nameof(GetLeaveTypeDetails), new { id = response});
+            int responseId = await _mediator.Send(leaveTypeDto);
+            return CreatedAtRoute("GetLeaveTypeDetailsRoute", new { id = responseId }, new { Id = responseId });
         }
+
 
         [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]

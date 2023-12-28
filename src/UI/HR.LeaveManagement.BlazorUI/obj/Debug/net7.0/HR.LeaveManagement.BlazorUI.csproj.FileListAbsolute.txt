@@ -870,3 +870,7 @@
 /Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/iFP0t+Ld.gz
 /Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/hKP0rZah.gz
 /Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/hkIeCWrw.gz
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Blazored.Toast.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/wwwroot/_framework/Blazored.Toast.dll.gz
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/bin/Debug/net7.0/Blazored.Toast.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/obj/Debug/net7.0/build-gz/FkUpvXC1.gz

@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: HR.LeaveManagement.BlazorUI [Default Configuration]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/src/UI/HR.LeaveManagement.BlazorUI/HR.LeaveManagement.BlazorUI.csproj"
+        },
+        {
+            "name": "C#: HR.LeaveManagement.Api [Default Configuration]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/src/API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Compound",
+            "configurations": ["C#: HR.LeaveManagement.Api [Default Configuration]", "C#: HR.LeaveManagement.BlazorUI [Default Configuration]"]
+        }
+    ]
+}
