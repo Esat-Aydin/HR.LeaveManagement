@@ -2,22 +2,24 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C#: HR.LeaveManagement.BlazorUI [Default Configuration]",
+            "name": "C#: HR.LeaveManagement.BlazorUI [https]",
             "type": "dotnet",
             "request": "launch",
-            "projectPath": "${workspaceFolder}/src/UI/HR.LeaveManagement.BlazorUI/HR.LeaveManagement.BlazorUI.csproj"
+            "projectPath": "${workspaceFolder}/src/UI/HR.LeaveManagement.BlazorUI/HR.LeaveManagement.BlazorUI.csproj",
+            "launchConfigurationId": "TargetFramework=;https"
         },
         {
-            "name": "C#: HR.LeaveManagement.Api [Default Configuration]",
+            "name": "C#: HR.LeaveManagement.Api [https]",
             "type": "dotnet",
             "request": "launch",
-            "projectPath": "${workspaceFolder}/src/API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj"
+            "projectPath": "${workspaceFolder}/src/API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj",
+            "launchConfigurationId": "TargetFramework=;https"
         }
     ],
     "compounds": [
         {
-            "name": "Compound",
-            "configurations": ["C#: HR.LeaveManagement.Api [Default Configuration]", "C#: HR.LeaveManagement.BlazorUI [Default Configuration]"]
+            "name": "Debug BlazorUI and API",
+            "configurations": ["C#: HR.LeaveManagement.BlazorUI [https]", "C#: HR.LeaveManagement.Api [https]"]
         }
     ]
 }

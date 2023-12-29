@@ -18,8 +18,10 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 // builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddTransient<JwtAuthorizationMessageHandler>();
-builder.Services.AddHttpClient<IClient, Client>(client => 
-    client.BaseAddress = new Uri("http://localhost:5006")).AddHttpMessageHandler<JwtAuthorizationMessageHandler>();
+builder.Services.AddHttpClient<IClient, Client>(client =>
+    client.BaseAddress = new Uri("https://localhost:7274")).AddHttpMessageHandler<JwtAuthorizationMessageHandler>();
+    // client.BaseAddress = new Uri("http://localhost:5006")).AddHttpMessageHandler<JwtAuthorizationMessageHandler>();
+
 
 
 builder.Services.AddAutoMapper(typeof(MappingConfig));

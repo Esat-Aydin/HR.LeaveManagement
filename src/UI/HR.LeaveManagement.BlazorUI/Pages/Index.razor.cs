@@ -19,7 +19,7 @@ public partial class Index
     protected async override Task OnInitializedAsync()
     {
         await ((ApiAuthenticationStateProvider)AuthenticationStateProvider).GetAuthenticationStateAsync();
-    }
+    }   
 
     protected void GoToLogin()
     {

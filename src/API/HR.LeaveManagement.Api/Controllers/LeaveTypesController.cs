@@ -9,11 +9,13 @@ using HR.LeaveManagement.Application.Features.LeaveType.Queries.GetLeaveTypeDeta
 using HR.LeaveManagement.Application.Features.LeaveType.Commands.CreateLeaveType;
 using HR.LeaveManagement.Application.Features.LeaveType.Commands.UpdateLeaveType;
 using HR.LeaveManagement.Application.Features.LeaveType.Commands.DeleteLeaveType;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HR.LeaveManagement.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class LeaveTypesController : ControllerBase
     {
         private readonly IMediator _mediator;

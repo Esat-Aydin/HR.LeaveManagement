@@ -1,28 +1,65 @@
-﻿<Properties StartupConfiguration="{6FF7B1E2-9CAA-4C7A-99EB-03E33C08557E}|https">
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
-      <Items>
-        <StartupItem ItemId="{6FF7B1E2-9CAA-4C7A-99EB-03E33C08557E}" ItemName="HR.LeaveManagement.Api" ConfigurationId="https" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{6F9AE6D1-244E-45BF-874F-D81459890D66}|http">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/UI/HR.LeaveManagement.BlazorUI/Pages/Index.razor.cs">
     <Files>
-      <File FileName="src/Infrastructure/HR.LeaveManagement.Infrastructure/InfrastructureServiceRegistration.cs" />
-      <File FileName="src/API/HR.LeaveManagement.Api/Program.cs" Line="29" Column="32" />
+      <File FileName="src/Infrastructure/HR.LeaveManagement.Infrastructure/InfrastructureServiceRegistration.cs" Line="15" Column="49" />
+      <File FileName="src/API/HR.LeaveManagement.Api/Program.cs" />
+      <File FileName="src/UI/HR.LeaveManagement.BlazorUI/Program.cs" Line="24" Column="1" />
+      <File FileName="src/UI/HR.LeaveManagement.BlazorUI/Pages/LeaveRequests/Index.razor.cs" Line="16" Column="57" />
+      <File FileName="src/UI/HR.LeaveManagement.BlazorUI/Services/LeaveRequestService.cs" Line="75" Column="39" />
+      <File FileName="src/UI/HR.LeaveManagement.BlazorUI/Pages/Index.razor" Line="1" Column="1" />
+      <File FileName="src/UI/HR.LeaveManagement.BlazorUI/Pages/Index.razor.cs" Line="24" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="HR.LeaveManagement" expanded="True" />
+          <Node name="HR.LeaveManagement" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="UI" expanded="True">
+                <Node name="HR.LeaveManagement.BlazorUI" expanded="True">
+                  <Node name="Contracts" expanded="True" />
+                  <Node name="Pages" expanded="True">
+                    <Node name="LeaveRequests" expanded="True">
+                      <Node name="Index.razor" expanded="True" />
+                    </Node>
+                    <Node name="Index.razor" expanded="True">
+                      <Node name="Index.razor.cs" selected="True" />
+                    </Node>
+                  </Node>
+                  <Node name="Services" expanded="True">
+                    <Node name="Base" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.src.API.HR.LeaveManagement.Api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.src.UI.HR.LeaveManagement.BlazorUI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Services/LeaveRequestService.cs" relfile="src/UI/HR.LeaveManagement.BlazorUI/Services/LeaveRequestService.cs" line="72" column="1" />
+      <Breakpoint file="/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Services/Base/ServiceClient.cs" relfile="src/UI/HR.LeaveManagement.BlazorUI/Services/Base/ServiceClient.cs" line="813" column="1" />
+      <Breakpoint file="/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Services/Base/ServiceClient.cs" relfile="src/UI/HR.LeaveManagement.BlazorUI/Services/Base/ServiceClient.cs" line="821" column="1" />
+      <Breakpoint file="/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Services/Base/ServiceClient.cs" relfile="src/UI/HR.LeaveManagement.BlazorUI/Services/Base/ServiceClient.cs" line="1918" column="1" />
+      <Breakpoint file="/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Pages/LeaveRequests/Index.razor.cs" relfile="src/UI/HR.LeaveManagement.BlazorUI/Pages/LeaveRequests/Index.razor.cs" line="15" column="1" />
+      <Breakpoint file="/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Pages/LeaveRequests/Index.razor.cs" relfile="src/UI/HR.LeaveManagement.BlazorUI/Pages/LeaveRequests/Index.razor.cs" line="16" column="1" />
+      <Breakpoint file="/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Pages/LeaveRequests/Index.razor.cs" relfile="src/UI/HR.LeaveManagement.BlazorUI/Pages/LeaveRequests/Index.razor.cs" line="17" column="1" />
+      <Breakpoint file="/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Services/LeaveRequestService.cs" relfile="src/UI/HR.LeaveManagement.BlazorUI/Services/LeaveRequestService.cs" line="73" column="1" />
+      <Breakpoint file="/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Pages/Index.razor.cs" relfile="src/UI/HR.LeaveManagement.BlazorUI/Pages/Index.razor.cs" line="20" column="1" />
+      <Breakpoint file="/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/UI/HR.LeaveManagement.BlazorUI/Pages/Index.razor.cs" relfile="src/UI/HR.LeaveManagement.BlazorUI/Pages/Index.razor.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{6FF7B1E2-9CAA-4C7A-99EB-03E33C08557E}" ItemName="HR.LeaveManagement.Api" ConfigurationId="https" />
+        <StartupItem ItemId="{6F9AE6D1-244E-45BF-874F-D81459890D66}" ItemName="HR.LeaveManagement.BlazorUI" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
 </Properties>

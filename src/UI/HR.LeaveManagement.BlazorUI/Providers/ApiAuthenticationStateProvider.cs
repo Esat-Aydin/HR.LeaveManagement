@@ -62,7 +62,7 @@ namespace HR.LeaveManagement.BlazorUI.Providers
             var savedToken = await localStorage.GetItemAsync<string>("token");
             var tokenContent = jwtSecurityTokenHandler.ReadJwtToken(savedToken);
             var claims = tokenContent.Claims.ToList();
-            claims.Add(new Claim(ClaimTypes.Name, tokenContent.Subject, ClaimValueTypes.String)); // Fix: Specify ClaimValueTypes.String
+            claims.Add(new Claim(ClaimTypes.Name, tokenContent.Subject));
             return claims;
         }
     }
