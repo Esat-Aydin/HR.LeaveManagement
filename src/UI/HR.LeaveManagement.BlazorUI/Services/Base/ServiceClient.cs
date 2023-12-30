@@ -15,6 +15,7 @@
 
 namespace HR.LeaveManagement.BlazorUI.Services.Base
 {
+    using System.Net.Http.Headers;
     using System = global::System;
 
     [System.CodeDom.Compiler.GeneratedCode("NSwag", "13.18.2.0 (NJsonSchema v10.8.0.0 (Newtonsoft.Json v13.0.0.0))")]
@@ -255,6 +256,7 @@ namespace HR.LeaveManagement.BlazorUI.Services.Base
 
                     PrepareRequest(client_, request_, url_);
 
+                    var test = request_.Headers.Authorization;
                     var response_ = await client_.SendAsync(request_, System.Net.Http.HttpCompletionOption.ResponseHeadersRead, cancellationToken).ConfigureAwait(false);
                     var disposeResponse_ = true;
                     try
@@ -1451,6 +1453,11 @@ namespace HR.LeaveManagement.BlazorUI.Services.Base
             {
                 using (var request_ = new System.Net.Http.HttpRequestMessage())
                 {
+                    // request_.Headers.Authorization = new AuthenticationHeaderValue("Bearer", "");
+                    // var json_ = System.Text.Json.JsonSerializer.Serialize(body, _settings.Value);
+                    // var content_ = new System.Net.Http.StringContent(json_);
+                    // content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
+                    // request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("GET");
                     request_.Headers.Accept.Add(System.Net.Http.Headers.MediaTypeWithQualityHeaderValue.Parse("text/plain"));
 
@@ -1470,6 +1477,7 @@ namespace HR.LeaveManagement.BlazorUI.Services.Base
                         {
                             foreach (var item_ in response_.Content.Headers)
                                 headers_[item_.Key] = item_.Value;
+
                         }
 
                         ProcessResponse(client_, response_);

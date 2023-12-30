@@ -34,6 +34,6 @@ builder.Services.AddScoped<AuthenticationStateProvider, ApiAuthenticationStatePr
 builder.Services.AddScoped<ILeaveTypeService, LeaveTypeService>();
 builder.Services.AddScoped<ILeaveRequestService, LeaveRequestService>();
 builder.Services.AddScoped<ILeaveAllocationService, LeaveAllocationService>();
-builder.Services.AddScoped<IAuthenticationService, AuthenticateService>();
+builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 
 await builder.Build().RunAsync();

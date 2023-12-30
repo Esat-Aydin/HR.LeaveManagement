@@ -1,4 +1,5 @@
-﻿using HR.LeaveManagement.Application.Exceptions;
+﻿using HR.LeaveManagement.Application.Contracts.Identity;
+using HR.LeaveManagement.Application.Exceptions;
 using HR.LeaveManagement.Application.Identity;
 using HR.LeaveManagement.Application.Models.Identity;
 using HR.LeaveManagement.Identity.Models;

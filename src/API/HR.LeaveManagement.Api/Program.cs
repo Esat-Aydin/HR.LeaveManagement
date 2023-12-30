@@ -19,7 +19,7 @@ var builder = WebApplication.CreateBuilder(args);
 ApplicationServiceRegistration.AddApplicationServices(builder.Services);
 InfrastructureServiceRegistration.AddInfrastructureServices(builder.Services, builder.Configuration);
 PersistenceServiceRegistration.AddPersistenceServices(builder.Services, builder.Configuration);
-IdentityServiceRegistration.AddIdentityServices(builder.Services, builder.Configuration);
+IdentityServicesRegistration.AddIdentityServices(builder.Services, builder.Configuration);
 
 builder.Services.AddControllers();
 

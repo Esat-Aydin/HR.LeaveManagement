@@ -24,12 +24,16 @@ dotnet ef migrations add InitialMigration --context HrLeaveManagementIdentityDbC
                                                 #path of mine project                                       #path of dbcontext project
 dotnet ef migrations add ChangedLeavetype --context HrDatabaseContext -s src/API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj -p src/Infrastructure/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj
 
+dotnet ef migrations add IdentityChanges --context HrLeaveManagementIdentityDbContext -s src/API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj -p src/Infrastructure/HR.LeaveManagement.Identity/HR.LeaveManagement.Identity.csproj
+
 
 #dotnet database update command
 dotnet ef database update -s API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj
  -p Infrastructure/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj
 
 dotnet ef database update --context HrDatabaseContext -s src/API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj -p src/Infrastructure/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj
+
+dotnet ef database update IdentityChanges --context HrLeaveManagementIdentityDbContext -s src/API/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj -p src/Infrastructure/HR.LeaveManagement.Identity/HR.LeaveManagement.Identity.csproj
 
 #connection string settings
 Encrypt=False is bein used because I do not have a valid SSL encryption
@@ -42,3 +46,6 @@ dotnet new blazorwasm -n YourProjectName
 
 #docker run sql server 2022
 docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Esat2001' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
+
+#dotnet run https
+dotnet run --launch-profile https 

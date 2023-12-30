@@ -1,11 +1,29 @@
 {
   "Version": 1,
-  "Hash": "ttPGIbrPiRcnhlfbWDIGTX9We6LPiv9MuezRcaw7mgU=",
+  "Hash": "BttX2dXueKkqpM6O3f5sb08teE99uy/kIHzso3m+Uec=",
   "Source": "HR.LeaveManagement.Api",
   "BasePath": "_content/HR.LeaveManagement.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.14/staticwebassets/AuthenticationService.js",
+      "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.14/staticwebassets/",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "RelativePath": "AuthenticationService.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/esataydin/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.14/staticwebassets/AuthenticationService.js"
+    }
+  ]
 }

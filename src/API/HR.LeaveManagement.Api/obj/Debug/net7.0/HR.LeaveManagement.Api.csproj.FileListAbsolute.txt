@@ -103,3 +103,13 @@
 /Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
 /Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/bin/Debug/net7.0/HR.LeaveManagement.Identity.dll
 /Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/bin/Debug/net7.0/HR.LeaveManagement.Identity.pdb
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/bin/Debug/net7.0/HR.LeaveManagement.Api.staticwebassets.runtime.json
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/bin/Debug/net7.0/Microsoft.AspNetCore.Authorization.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/bin/Debug/net7.0/Microsoft.AspNetCore.Components.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/bin/Debug/net7.0/Microsoft.AspNetCore.Components.Authorization.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/bin/Debug/net7.0/Microsoft.AspNetCore.Components.Forms.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/bin/Debug/net7.0/Microsoft.AspNetCore.Components.Web.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/bin/Debug/net7.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/bin/Debug/net7.0/Microsoft.AspNetCore.Metadata.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/esataydin/Documents/GitHub/HR.LeaveManagement/src/API/HR.LeaveManagement.Api/bin/Debug/net7.0/Microsoft.JSInterop.dll
