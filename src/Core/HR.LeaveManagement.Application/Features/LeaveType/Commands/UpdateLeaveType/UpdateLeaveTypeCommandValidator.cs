@@ -25,7 +25,7 @@ public class UpdateLeaveTypeCommandValidator : AbstractValidator<UpdateLeaveType
 
         RuleFor(p => p.DefaultDays)
             .LessThan(100).WithMessage("{PropertyName} cannot exceed 100")
-            .GreaterThan(1).WithMessage("{PropertyName} cannot be less than 1");
+            .GreaterThan(0).WithMessage("{PropertyName} cannot be less than 1");
 
         this._leaveTypeRepository = leaveTypeRepository;
     }

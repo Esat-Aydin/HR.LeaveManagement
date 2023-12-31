@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace HR.LeaveManagement.Application.Common
 {
-    public class BaseDto
+    public abstract class BaseDto
     {
         public int Id { get; set; }
     }

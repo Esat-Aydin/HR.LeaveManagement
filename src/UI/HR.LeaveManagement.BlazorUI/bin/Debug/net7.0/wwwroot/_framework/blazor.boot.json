@@ -212,13 +212,13 @@
       "mscorlib.dll": "sha256-gEh2pbf9QBKUbbQNDp178pkm5vz7xXFGhpFgUcAhyTE=",
       "netstandard.dll": "sha256-IEYNogoWZgSKXlx0+Pn2bt3irEZ1nuCnjK9Bm+3OWYw=",
       "System.Private.CoreLib.dll": "sha256-XrgDwG5fUErLSziY3dAwA0PYLIirTlornT8Lb6U2DUs=",
-      "HR.LeaveManagement.BlazorUI.dll": "sha256-S5MGddP47TW3lrRe3q0J3M9RPiTQwLqaspKmxCRugnI="
+      "HR.LeaveManagement.BlazorUI.dll": "sha256-B2IQKZDrmn+ZYGB+bOatLxytdal08IFKtE6RAfzQlvE="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "HR.LeaveManagement.BlazorUI.pdb": "sha256-\/7iVLRxAPcQlUqwH36mRfz83WtIetmEPjnXCYGIxHBs="
+      "HR.LeaveManagement.BlazorUI.pdb": "sha256-5CGgPwPlDr+HeYP7u5TMCfNOy26kpXq+mSEevoT4OH8="
     },
     "runtime": {
       "dotnet.7.0.7.5jf4r332wd.js": "sha256-JmMF+3r0RjsO0yYBfDP8Pq2ahxBSJHFu7mZNB9lqLsw=",

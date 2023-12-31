@@ -17,6 +17,9 @@ namespace HR.LeaveManagement.Application.MappingProfiles
         {
             CreateMap<LeaveType, LeaveTypeDto>().ReverseMap();
             CreateMap<LeaveType, LeaveTypeDetailsDto>();
+            var check = new LeaveType();
+            var check2 = new LeaveTypeDto();
+            var check3 = new LeaveTypeDetailsDto();
             CreateMap<CreateLeaveTypeCommand, LeaveType>();
             CreateMap<UpdateLeaveTypeCommand, LeaveType>();
         }

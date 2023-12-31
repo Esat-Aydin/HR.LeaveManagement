@@ -2317,12 +2317,24 @@ namespace HR.LeaveManagement.BlazorUI.Services.Base
         [System.Text.Json.Serialization.JsonPropertyName("dateCreated")]
 
         [System.Text.Json.Serialization.JsonIgnore(Condition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]   
-        public System.DateTimeOffset? DateCreated { get; set; }
+        public System.DateTime? DateCreated { get; set; }
 
         [System.Text.Json.Serialization.JsonPropertyName("dateModified")]
 
         [System.Text.Json.Serialization.JsonIgnore(Condition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]   
-        public System.DateTimeOffset? DateModified { get; set; }
+        public System.DateTime? DateModified { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("modifiedby")]
+
+        [System.Text.Json.Serialization.JsonIgnore(Condition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]   
+        public string ModifiedBy { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("createdby")]
+
+        [System.Text.Json.Serialization.JsonIgnore(Condition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]   
+        public string CreatedBy { get; set; }
+
+        // Made some changes to leavetypesdetailsdto
 
     }
 
@@ -2516,6 +2528,28 @@ namespace HR.LeaveManagement.BlazorUI.Services.Base
 
         [System.Text.Json.Serialization.JsonIgnore(Condition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]   
         public int DefaultDays { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("datecreated")]
+
+        [System.Text.Json.Serialization.JsonIgnore(Condition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]   
+        public DateTime? DateCreated { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("createdby")]
+
+        [System.Text.Json.Serialization.JsonIgnore(Condition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]   
+        public string CreatedBy { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("datemodified")]
+
+        [System.Text.Json.Serialization.JsonIgnore(Condition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]   
+        public DateTime? DateModified { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("modifiedby")]
+
+        [System.Text.Json.Serialization.JsonIgnore(Condition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault)]   
+        public string ModifiedBy { get; set; }
+
+        // made changes to the UpdateLeaveTypeCommand
 
     }
 

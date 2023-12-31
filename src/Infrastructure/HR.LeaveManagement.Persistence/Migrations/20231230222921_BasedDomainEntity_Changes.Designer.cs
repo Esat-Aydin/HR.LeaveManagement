@@ -4,6 +4,7 @@ using HR.LeaveManagement.Persistence.DatabaseContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HR.LeaveManagement.Persistence.Migrations
 {
     [DbContext(typeof(HrDatabaseContext))]
-    partial class HrDatabaseContextModelSnapshot : ModelSnapshot
+    [Migration("20231230222921_BasedDomainEntity_Changes")]
+    partial class BasedDomainEntity_Changes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -150,8 +153,8 @@ namespace HR.LeaveManagement.Persistence.Migrations
                         new
                         {
                             Id = 1,
-                            DateCreated = new DateTime(2023, 12, 31, 16, 10, 51, 447, DateTimeKind.Local).AddTicks(9200),
-                            DateModified = new DateTime(2023, 12, 31, 16, 10, 51, 447, DateTimeKind.Local).AddTicks(9250),
+                            DateCreated = new DateTime(2023, 12, 30, 23, 29, 21, 679, DateTimeKind.Local).AddTicks(7390),
+                            DateModified = new DateTime(2023, 12, 30, 23, 29, 21, 679, DateTimeKind.Local).AddTicks(7430),
                             DefaultDays = 10,
                             Name = "Vacation"
                         });
