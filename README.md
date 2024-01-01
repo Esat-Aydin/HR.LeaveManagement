@@ -7,5 +7,5 @@ CLEAN ARCHITECTURE
 CODING PATTERNS AND CONCEPTS
 - Dependency Injection
 - Separation of Concerns
-CQRS and Mediator Patterns
-Repository Pattern
+- CQRS and Mediator Patterns
+- Repository Pattern
